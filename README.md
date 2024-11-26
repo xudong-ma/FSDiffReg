@@ -26,7 +26,7 @@ python train.py -c config/train_3D.json
 To run testing process:
 
 ```
-python3 test.py -c config/test_3D.json -w [YOUR TRAINED WEIGHTS]
+python test.py -c config/test_3D.json -w [YOUR TRAINED WEIGHTS] -note [test_trans ... to remind myself what this test is on]
 ```
 Trained model can be found [here](https://drive.google.com/drive/folders/1x4NC9hHor2JexrclDmUMfKYTHhOQvVYT?usp=sharing)
 
