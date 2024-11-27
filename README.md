@@ -18,7 +18,7 @@ to install the environment. We used PyTorch 1.12.0, Python 3.8.10 for training.
 To run training process:
 
 ```
-python train.py -c config/train_3D.json
+python train.py -c config/train_3D.json -note [remind myself what this test is on; include TraninOnReal if you train on real;]
 ```
 
 ## Test
@@ -26,7 +26,7 @@ python train.py -c config/train_3D.json
 To run testing process:
 
 ```
-python test.py -c config/test_3D.json -w [YOUR TRAINED WEIGHTS] -note [test_trans ... to remind myself what this test is on; include TransOnReal if you want it's on real source image]
+python test.py -c config/test_3D.json -w [YOUR TRAINED WEIGHTS] -note [test_trans ... to remind myself what this test is on; include TransOnReal if you train on trans but test on real;]
 ```
 Trained model can be found [here](https://drive.google.com/drive/folders/1x4NC9hHor2JexrclDmUMfKYTHhOQvVYT?usp=sharing)
 
